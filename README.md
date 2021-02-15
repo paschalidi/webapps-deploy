@@ -234,7 +234,7 @@ NOTE: to manage service principals created with `az ad sp create-for-rbac`, visi
 
 #### Configure web app private registry credentials
 
-This sample assumes the `node-rnc` web application has been previously configured to authenticate against the private registry. If you wish to set private registry authentication settings on the workflow, you can either use:
+This sample assumes the `node-rnc` web application has been previously configured to authenticate against a public registry. If you wish to set private registry authentication settings on the workflow, you can either use:
 
 * The command [az webapp config container](https://docs.microsoft.com/cli/azure/webapp/config/container?view=azure-cli-latest#az-webapp-config-container-set) to configure the registry url, username and password.
 
